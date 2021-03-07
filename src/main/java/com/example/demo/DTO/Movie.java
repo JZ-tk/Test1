@@ -5,12 +5,25 @@ public class Movie {
     String name;
     String type;
     boolean isFavorite;
+    String contidionFav;
+
+    public String getContidionFav() {
+        return contidionFav;
+    }
+
+    public void setContidionFav(String contidionFav) {
+        this.contidionFav = contidionFav;
+    }
 
     public Movie(String id, String name, String type, boolean isFavorite) {
         this.id = id;
         this.name = name;
         this.type = type;
         this.isFavorite = isFavorite;
+    }
+
+    public Movie() {
+        super();
     }
 
     public String getId() {
