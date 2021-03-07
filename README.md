@@ -9,3 +9,4 @@ This is demo project which can be imported into Idea or Eclipse to test some fun
 6. No root URL, just IP + port + business request path, like "http://localhost:8080/movies?search={type:"animation"}" 
 7. I recommend you to use IDEA to run the project.
 8. "No DB in the project", just use a simple List to simulate DB, and the Data will be reset if you restart the project.
+9. For easy testing of "post" method, the system provide a html page to submit a form, of course you can use other tool to test the post method, like "Post Man".
